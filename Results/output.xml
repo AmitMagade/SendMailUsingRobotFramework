@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.1 (Python 3.10.0 on win32)" generated="20220903 17:40:56.752" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.1 (Python 3.10.0 on win32)" generated="20220904 15:42:20.887" rpa="false" schemaversion="2">
 <suite id="s1" name="Test" source="C:\Users\Amit\PycharmProjects\sendEmail\TestSuites\test.robot">
 <test id="s1-t1" name="Send Email using robot framework without attachments">
 <kw name="Sendmail" library="SendEmail">
 <arg>${email_sender_zohomail}</arg>
 <arg>${email_password_zohomail}</arg>
+<arg>${email_receiver_gmail}</arg>
+<arg>${Subject}</arg>
+<arg>${Email_Body}</arg>
+<status status="PASS" starttime="20220904 15:42:20.918" endtime="20220904 15:42:21.678"/>
+</kw>
+<kw name="Sendmail" library="SendEmail">
+<arg>${email_sender_gmail}</arg>
+<arg>${email_password_gmail}</arg>
 <arg>${email_receiver_mail}</arg>
 <arg>${Subject}</arg>
 <arg>${Email_Body}</arg>
-<status status="PASS" starttime="20220903 17:40:56.775" endtime="20220903 17:40:57.842"/>
+<status status="PASS" starttime="20220904 15:42:21.678" endtime="20220904 15:42:24.298"/>
 </kw>
-<status status="PASS" starttime="20220903 17:40:56.775" endtime="20220903 17:40:57.857"/>
+<status status="PASS" starttime="20220904 15:42:20.918" endtime="20220904 15:42:24.298"/>
 </test>
-<status status="PASS" starttime="20220903 17:40:56.754" endtime="20220903 17:40:57.857"/>
+<status status="PASS" starttime="20220904 15:42:20.887" endtime="20220904 15:42:24.298"/>
 </suite>
 <statistics>
 <total>
